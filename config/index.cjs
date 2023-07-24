@@ -38,17 +38,6 @@ const USER_CONFIG = {
           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
         },
       ],
-    SLOT_LIST: [
-    // 这样配置的话，就会每次随机选一句话发送
-    {
-      keyword: 'lover_prattle',
-      contents: [
-        '因为太喜欢你，所以看谁都像是情敌。',
-        '申请成为你爱里的永久居民。',
-        '你很傻，你很笨，可我还是很羡慕你，因为你有我',
-        '遇见你，就好像捡到了100斤的运气'
-      ]],
-    }
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
@@ -67,9 +56,18 @@ const USER_CONFIG = {
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'PDU24305T5WV5EEkgOGfUt790rqp6uCQqXIwAuGiK',
     }
-  ],
+  ],    
+  SLOT_LIST: [
+    // 这样配置的话，就会每次随机选一句话发送
+    {
+      keyword: 'lover_prattle',
+      contents: [
+        '因为太喜欢你，所以看谁都像是情敌。',
+        '申请成为你爱里的永久居民。',
+        '你很傻，你很笨，可我还是很羡慕你，因为你有我',
+        '遇见你，就好像捡到了100斤的运气'
+      ]],
 
 }
 
 module.exports = USER_CONFIG
-
