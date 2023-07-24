@@ -43,7 +43,18 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2022-09-08' }
       ],
+    SLOT_LIST: [
+    // 这样配置的话，就会每次随机选一句话发送
+    {
+      keyword: 'lover_prattle',
+      contents: [
+        '因为太喜欢你，所以看谁都像是情敌。',
+        '申请成为你爱里的永久居民。',
+        '你很傻，你很笨，可我还是很羡慕你，因为你有我',
+        '遇见你，就好像捡到了100斤的运气']
+      ],
     },
+    
   ],
 
 
@@ -57,17 +68,7 @@ const USER_CONFIG = {
       id: 'PDU24305T5WV5EEkgOGfUt790rqp6uCQqXIwAuGiK',
     }
   ],    
-  SLOT_LIST: [
-    // 这样配置的话，就会每次随机选一句话发送
-    {
-      keyword: 'lover_prattle',
-      contents: [
-        '因为太喜欢你，所以看谁都像是情敌。',
-        '申请成为你爱里的永久居民。',
-        '你很傻，你很笨，可我还是很羡慕你，因为你有我',
-        '遇见你，就好像捡到了100斤的运气'
-      ]
-  ],
+
 
 }
 
