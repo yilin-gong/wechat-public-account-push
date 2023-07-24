@@ -14,7 +14,7 @@ const TEMPLATE_CONFIG = [
       
       ❤️♥️💙💜🤎🩶🩷🩵💖💚🧡🖤
       
-      *{{lover_prattle.DATA}*
+      *{{lover_prattle.DATA}}*
       
       今天是我们相识的**第{{love_day.DATA}}天**
       
