@@ -8,11 +8,13 @@
 const USER_CONFIG = {
   
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx1a40775b8cf23543',
+  APP_ID: '',
+  // 请将以下代码按照图示粘贴到对应位置
+  USE_PASSAGE: 'push-deer',
 
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '8f71be8615d5eed8912f1084d91a5e4b',
+  APP_SECRET: '',
 
   PROVINCE: '北京',
   CITY: '北京',
@@ -22,7 +24,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'obapD6YN4t0AE-YvcFv5UVEVyEd0',
+      id: '001',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'NnW68Lt-iQMM-zhOfQHt3zz-BTgagcaMQqwLngnQKQ4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
