@@ -10,7 +10,7 @@ const TEMPLATE_CONFIG = [
       
       天气🌤️：{{weather.DATA}}
       
-      气温🌡️(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      气温🌡️(最高/最低):**{{max_temperature.DATA}} / {{min_temperature.DATA}}**
       
       风向: {{wind_direction.DATA}}
       
@@ -18,7 +18,7 @@ const TEMPLATE_CONFIG = [
       
       ❤️♥️💙💜🤎🩶🩷🩵💖💚🧡🖤
       
-      今天是我们相识的第{{love_day.DATA}}天 
+      今天是我们相识的**第{{love_day.DATA}}天**
       
       {{birthday_message.DATA}}
       
