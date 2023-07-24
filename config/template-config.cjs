@@ -3,9 +3,7 @@ const TEMPLATE_CONFIG = [
   {
     id: '0001',
     title: '宝宝早上好',
-    desc: `
-      **{{date.DATA}}**
-      
+    desc: `    
       下个休息日：{{holidaytts.DATA}}
       
       ---
@@ -31,8 +29,6 @@ const TEMPLATE_CONFIG = [
       🩵💖💙❤️💚🤎🖤🧡💜🩶♥️🩷
       
       {{moment_copyrighting.DATA}}
-      
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
     `
   },
   {
