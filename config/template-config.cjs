@@ -12,11 +12,9 @@ const TEMPLATE_CONFIG = [
       
       气温🌡️(最高/最低):**{{max_temperature.DATA}} / {{min_temperature.DATA}}**
       
-      风向: {{wind_direction.DATA}}
-      
-      🌀: {{wind_scale.DATA}}
-      
       ❤️♥️💙💜🤎🩶🩷🩵💖💚🧡🖤
+      
+      *{{lover_prattle.DATA}*
       
       今天是我们相识的**第{{love_day.DATA}}天**
       
