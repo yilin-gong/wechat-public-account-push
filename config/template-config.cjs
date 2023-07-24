@@ -27,8 +27,6 @@ const TEMPLATE_CONFIG = [
       {{birthday_message.DATA}}
       
       🩵💖💙❤️💚🤎🖤🧡💜🩶♥️🩷
-      
-      {{moment_copyrighting.DATA}}
     `
   },
   {
