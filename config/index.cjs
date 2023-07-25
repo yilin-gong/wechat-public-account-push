@@ -40,7 +40,6 @@ const USER_CONFIG = {
         '其实我很累，但是他抱不到我，所以我要乖',
         '喜欢你之后，手机多了一个城市的天气信息',
         '为了这次相聚，我连见面时的呼吸都反复练习',
-        '异地恋是种什么感觉，你不要哭，我抱不到你',
         '思念涌上心头时，想要越过方寸的屏幕拥抱你',
         '你坐在列车上，即使我站在站台，心已经买了票',
         '每一道日出，都是我在追逐你的足迹',
@@ -93,7 +92,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU24305T5WV5EEkgOGfUt790rqp6uCQqXIwAuGiK',
+      id: 'PDU24317TAPfJUZGMjk1R74Dnp9phzPfijlEDS4aO',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -104,13 +103,13 @@ const USER_CONFIG = {
           type: '生日', name: '宝贝', year: '1998', date: '04-17',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '相识纪念日', year: '2020', date: '07-24',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' }
+        { keyword: 'love_day', date: '2022-08-07' }
       ],
 
     },
